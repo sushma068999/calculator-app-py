@@ -26,7 +26,7 @@ window.resizable = (False, False)
 frame = tkinter.Frame(window)
 label = tkinter.Label(frame, text= "0", font= ("Arial", 45), background= color_black, foreground= color_white, anchor= "e", width= coloumn_count) #width= column_count > maximum width we want
 
-label.grid(row= 0, column= 0, columnspan= coloumn_count, sticky= "we")     #Grid: starts from 0 for both row and column, putting label stretch from left to right on grid 0 (excel layout), i.e, label is in 0th row and 0th column stretching on column count , left to right. columnspan = how many columns label should take (on columns inside column_count) to take entire space. Sticky (stretch) west-east. 
+label.grid(row= 0, column= 0, columnspan= coloumn_count, sticky= "we")     #Grid: starts from 0 for both row and column, putting label stretch from left to right on grid 0 (excel layout), i.e, label is in 0th row and 0th column stretching on column count , left to right. columnspan = how many columns label should take (on columns inside column_count) to take entire space. Sticky (stretch) west-east.
 
 for row in range(row_count):     #repeat for every row (eg- row count 4, so 0, 1, 2, 3)
     for column in range(coloumn_count):     #inside each row, go through each column (eg- column count 4, so 0, 1, 2, 3)
