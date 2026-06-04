@@ -1,5 +1,5 @@
 # Calculator App: 
-A simple app built using Python and Tkinter.
+A simple calculator app built using Python and Tkinter.
 
 ## Features:
 - Addition
